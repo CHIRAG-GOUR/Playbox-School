@@ -1,21 +1,19 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import heroBlobImage1 from '../../img/build/20230809_124004.webp'
-import heroBlobImage2 from '../../img/build/20240313_161507.webp'
-import heroBlobImage3 from '../../img/build/20240313_161626.webp'
-import heroBlobImage4 from '../../img/build/4449e70f-f8f8-4a8e-a1b7-a09bd649c47b.webp'
-import heroBlobImage5 from '../../img/build/Copy of 20230809_122955.webp'
-import heroBlobImage6 from '../../img/build/Copy of 20240313_161507.webp'
+import heroBlobImage1 from '../../img/build/1.jpg'
+import heroBlobImage2 from '../../img/build/2.jpg'
+import heroBlobImage3 from '../../img/build/3.jpg'
+import heroBlobImage4 from '../../img/build/4.jpg'
+import heroBlobImage5 from '../../img/build/5.jpg'
 
 import brochurePdf from '../../img/pdf/playboxschool.pdf'
 
 const heroSlides = [
-  { src: heroBlobImage1, alt: 'Playbox school building front view' },
-  { src: heroBlobImage2, alt: 'Bright and colorful Playbox school campus' },
-  { src: heroBlobImage3, alt: 'Fun learning spaces at Playbox School' },
-  { src: heroBlobImage4, alt: 'Playbox school activity area' },
-  { src: heroBlobImage5, alt: 'Engaging outdoor setup at Playbox' },
-  { src: heroBlobImage6, alt: 'Playbox school welcoming entrance' },
+  { src: heroBlobImage1, alt: 'Playbox school students studying' },
+  { src: heroBlobImage2, alt: 'Playbox school campus and kids' },
+  { src: heroBlobImage3, alt: 'Learning spaces at Playbox School' },
+  { src: heroBlobImage4, alt: 'Playbox school activity' },
+  { src: heroBlobImage5, alt: 'Playbox school outdoor setup' },
 ]
 
 export default function Hero() {
