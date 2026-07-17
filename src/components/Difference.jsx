@@ -3,33 +3,33 @@ import { animate, motion, useInView, useMotionValue } from 'framer-motion'
 
 const transformations = [
     {
-        before: { label: 'Separation Anxiety', emoji: '😢', image: '/assets/before_separation_anxiety_new.webp' },
-        after: { label: 'Supportive, Caring Teachers', emoji: '🤗', image: '/assets/after_caring_teachers.webp' },
+        before: { label: 'Separation Anxiety', emoji: '😢', image: '/assets/diff_1_before.png' },
+        after: { label: 'Supportive, Caring Teachers', emoji: '🤗', image: '/assets/diff_1_after.png' },
         accent: 'var(--color-primary)',
     },
     {
-        before: { label: 'Excessive Screen Time', emoji: '📱', image: '/assets/before_screen_time.webp' },
-        after: { label: 'Screenless Hands-On Activities', emoji: '🎨', image: '/assets/after_hands_on.webp' },
+        before: { label: 'Excessive Screen Time', emoji: '📱', image: '/assets/diff_2_before.png' },
+        after: { label: 'Screenless Hands-On Activities', emoji: '🎨', image: '/assets/diff_2_after.png' },
         accent: 'var(--color-secondary)',
     },
     {
-        before: { label: 'Unstructured Routine', emoji: '😴', image: '/assets/before_unstructured.webp' },
-        after: { label: 'Productive Utilization of Time', emoji: '⏰', image: '/assets/after_productive_time.webp' },
+        before: { label: 'Unstructured Routine', emoji: '😴', image: '/assets/diff_3_before.png' },
+        after: { label: 'Productive Utilization of Time', emoji: '⏰', image: '/assets/diff_3_after.png' },
         accent: 'var(--color-quaternary)',
     },
     {
-        before: { label: 'Aggressive Behavior', emoji: '😤', image: '/assets/before_aggressive.webp' },
-        after: { label: 'Building Emotional Intelligence', emoji: '💛', image: '/assets/after_emotional_eq.webp' },
+        before: { label: 'Aggressive Behavior', emoji: '😤', image: '/assets/diff_4_before.png' },
+        after: { label: 'Building Emotional Intelligence', emoji: '💛', image: '/assets/diff_4_after.png' },
         accent: 'var(--color-quinary)',
     },
     {
-        before: { label: 'Slow Language Development', emoji: '🤐', image: '/assets/before_slow_language.webp' },
-        after: { label: 'Enhanced Social Skills', emoji: '🗣️', image: '/assets/after_hands_on.webp' },
+        before: { label: 'Slow Language Development', emoji: '🤐', image: '/assets/diff_5_before.png' },
+        after: { label: 'Enhanced Social Skills', emoji: '🗣️', image: '/assets/diff_5_after.png' },
         accent: 'var(--color-tertiary)',
     },
     {
-        before: { label: 'Low Group Confidence', emoji: '😟', image: '/assets/before_low_confidence_new.webp' },
-        after: { label: 'Confident Classroom Participation', emoji: '🌟', image: '/assets/after_confident_participation.webp' },
+        before: { label: 'Low Group Confidence', emoji: '😟', image: '/assets/diff_6_before.png' },
+        after: { label: 'Confident Classroom Participation', emoji: '🌟', image: '/assets/diff_6_after.png' },
         accent: 'var(--color-secondary)',
     },
 ]
