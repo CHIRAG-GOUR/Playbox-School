@@ -8,7 +8,7 @@ import Marquee from './components/Marquee'
 // Lazy loaded components (below the fold)
 const Features = lazy(() => import('./components/Features'))
 const Programs = lazy(() => import('./components/Programs'))
-const Testimonies = lazy(() => import('./components/Gallery'))
+
 const ImageGallery = lazy(() => import('./components/ImageGallery'))
 const Difference = lazy(() => import('./components/Difference'))
 const Mentors = lazy(() => import('./components/Mentors'))
@@ -82,9 +82,7 @@ function App() {
           <Programs />
         </Suspense>
         
-        <Suspense fallback={<ComponentPlaceholder height="600px" />}>
-          <Testimonies />
-        </Suspense>
+
         
         <Suspense fallback={<ComponentPlaceholder height="500px" />}>
           <ImageGallery />

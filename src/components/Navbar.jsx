@@ -5,7 +5,7 @@ import { FiMenu, FiX } from 'react-icons/fi'
 const navLinks = [
     { label: 'Home', href: '#home' },
     { label: 'Programs', href: '#programs' },
-    { label: 'Testimonies', href: '#testimonies' },
+
     { label: 'Gallery', href: '#gallery' },
     { label: 'Locations', href: '#locations' },
 ]
