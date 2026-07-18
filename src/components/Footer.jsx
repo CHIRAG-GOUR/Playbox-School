@@ -29,11 +29,12 @@ const quickLinks = [
 ]
 
 const programs = [
+    { label: 'Play Group', href: '#programs' },
+    { label: 'Nursery', href: '#programs' },
+    { label: 'Junior KG', href: '#programs' },
+    { label: 'Senior KG', href: '#programs' },
     { label: 'Class 1', href: '#programs' },
     { label: 'Class 2', href: '#programs' },
-    { label: 'Class 3', href: '#programs' },
-    { label: 'Class 4', href: '#programs' },
-    { label: 'Class 5', href: '#programs' },
 ]
 
 function smoothScroll(e, href, isFile = false) {
