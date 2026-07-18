@@ -64,12 +64,14 @@ export default function Programs() {
                 width: '100%',
                 maxWidth: '400px',
                 borderWidth: '4px',
-                borderStyle: 'solid'
+                borderStyle: 'solid',
+                padding: 0,
+                overflow: 'hidden'
               }}
             >
               <div
                 className="program-img-wrapper"
-                style={{ background: program.gradient }}
+                style={{ background: program.gradient, height: '200px' }}
               >
                 <img src={program.image} alt={program.title} />
               </div>
