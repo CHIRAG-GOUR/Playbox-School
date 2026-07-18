@@ -8,7 +8,7 @@ import {
     FiArrowUp,
 } from 'react-icons/fi'
 
-import brochurePdf from '../../img/pdf/playboxschool.pdf'
+
 
 const socialLinks = [
     { icon: FiFacebook, label: 'Facebook', href: 'https://www.facebook.com/playboxschooljaipur/', color: '#1877F2' },
@@ -25,17 +25,10 @@ const quickLinks = [
     { label: 'Mentors', href: '#mentors' },
     { label: 'Reviews', href: '#testimonials' },
     { label: 'Locations', href: '#locations' },
-    { label: 'Download Brochure', href: brochurePdf, isFile: true },
+
 ]
 
-const programs = [
-    { label: 'Play Group', href: '#programs' },
-    { label: 'Nursery', href: '#programs' },
-    { label: 'Junior KG', href: '#programs' },
-    { label: 'Senior KG', href: '#programs' },
-    { label: 'Class 1', href: '#programs' },
-    { label: 'Class 2', href: '#programs' },
-]
+
 
 function smoothScroll(e, href, isFile = false) {
     if (isFile) return // allow normal browser download action
@@ -119,17 +112,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Programs */}
-                    <div className="footer-column">
-                        <h4>Programs</h4>
-                        <div className="footer-links-list">
-                            {programs.map((link) => (
-                                <a key={link.label} href={link.href} onClick={(e) => smoothScroll(e, link.href)}>
-                                    {link.label}
-                                </a>
-                            ))}
-                        </div>
-                    </div>
+
 
                     {/* Contact */}
                     <div className="footer-column">
@@ -146,10 +129,7 @@ export default function Footer() {
                                     <span><strong>{branch.name}</strong> - {branch.phone}</span>
                                 </a>
                             ))}
-                            <a href="mailto:info@playboxschool.com" className="footer-contact-item">
-                                <FiMail size={14} />
-                                <span>info@playboxschool.com</span>
-                            </a>
+
                         </div>
                     </div>
                 </div>

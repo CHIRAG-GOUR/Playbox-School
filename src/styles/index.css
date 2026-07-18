@@ -4344,3 +4344,12 @@ a {
 .scrapbook-emoji {
   font-size: 1.3rem;
 }
+@keyframes animatedBorderPulse {
+  0% { box-shadow: 0 0 0 0px var(--color-primary); }
+  50% { box-shadow: 0 0 0 10px rgba(0,0,0,0); }
+  100% { box-shadow: 0 0 0 0px rgba(0,0,0,0); }
+}
+.animated-border {
+  animation: animatedBorderPulse 2s infinite;
+}
+
