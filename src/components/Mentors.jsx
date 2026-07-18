@@ -5,7 +5,7 @@ import directorImage from '../../img/director.webp'
 
 const mentors = [
   {
-    name: 'Ayush Singh Rawat',
+    name: 'Aayush Singh Rawat',
     role: 'Director',
     image: directorImage,
   }

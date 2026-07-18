@@ -90,15 +90,6 @@ export default function CTA() {
                             >
                                 Enroll Now
                             </motion.a>
-                            <motion.a
-                                href={brochurePdf}
-                                download="Playbox_Preschool_Brochure.pdf"
-                                className="cta-blob-btn cta-blob-btn-outline"
-                                whileHover={{ scale: 1.05, y: -2 }}
-                                whileTap={{ scale: 0.95 }}
-                            >
-                                Download Brochure
-                            </motion.a>
                         </motion.div>
                     </div>
 

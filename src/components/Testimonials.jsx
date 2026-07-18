@@ -8,35 +8,35 @@ const testimonials = [
     {
         text: "Playbox has been a transformative experience for my daughter. She comes home every day excited about what she learned. The teachers are incredibly caring.",
         name: 'Priya Sharma',
-        role: 'Parent of Ananya, Nursery',
+        role: 'Parent of Ananya',
         avatar: '/assets/parent_1.webp',
         rating: 5,
     },
     {
         text: "The best decision we made was enrolling our son at Playbox. The holistic approach to learning, combined with safety measures, gives us complete peace of mind.",
         name: 'Rajesh Gupta',
-        role: 'Parent of Arjun, Play Group',
+        role: 'Parent of Arjun',
         avatar: '/assets/parent_2.webp',
         rating: 5,
     },
     {
         text: "My child's confidence has grown tremendously since joining Playbox School. The activities are engaging and the staff treats every child with so much love.",
         name: 'Sneha Agarwal',
-        role: 'Parent of Riya, Junior KG',
+        role: 'Parent of Riya',
         avatar: '/assets/parent_3.webp',
         rating: 5,
     },
     {
         text: "Thank You to Playbox, that even we have learnt to say 'Namaskar'. Even at home my twin children always greet me with 'Namaskar'. Character building and academics are taken care of here.",
         name: 'Glory Agarwal',
-        role: 'Parent of Hrida, Nursery',
+        role: 'Parent of Hrida',
         avatar: '/assets/parent_4.webp',
         rating: 5,
     },
     {
         text: "Playbox feels like my child's second home. He doesn't cry or miss me when he goes to school. His motor and cognitive skills are being developed creatively and engagingly.",
         name: 'Sandhya Godara',
-        role: 'Parent of Kabir, Nursery',
+        role: 'Parent of Kabir',
         avatar: '/assets/parent_5.webp',
         rating: 5,
     },
@@ -129,14 +129,6 @@ function GoogleReviewBadge({ inView }) {
                 ))}
             </div>
 
-            <a
-                href="https://www.google.com/maps/place/Playbox+Preschool+(+Sanghi+Farm+)+%7C+Top+Best+Preschool+in+Jaipur/@26.8562331,75.7567849,14z/data=!4m12!1m2!2m1!1splaybox+preschool!3m8!1s0x396db51e7dbb254f:0x42fe0bd0446013d1!8m2!3d26.8562331!4d75.7948937!9m1!1b1!15sChFwbGF5Ym94IHByZXNjaG9vbJIBCXByZXNjaG9vbOABAA!16s%2Fg%2F11tnjxh3hj?entry=ttu&g_ep=EgoyMDI2MDMxNS4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="google-review-link"
-            >
-                <FiExternalLink size={14} /> Write a Review on Google
-            </a>
         </motion.div>
     )
 }

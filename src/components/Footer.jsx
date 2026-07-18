@@ -29,10 +29,11 @@ const quickLinks = [
 ]
 
 const programs = [
-    { label: 'Play Group', href: '#programs' },
-    { label: 'Nursery', href: '#programs' },
-    { label: 'Junior KG', href: '#programs' },
-    { label: 'Senior KG', href: '#programs' },
+    { label: 'Class 1', href: '#programs' },
+    { label: 'Class 2', href: '#programs' },
+    { label: 'Class 3', href: '#programs' },
+    { label: 'Class 4', href: '#programs' },
+    { label: 'Class 5', href: '#programs' },
 ]
 
 function smoothScroll(e, href, isFile = false) {
@@ -155,9 +156,6 @@ export default function Footer() {
                 <div className="footer-bottom">
                     <p>
                         © {new Date().getFullYear()} Playbox School. All rights reserved.
-                    </p>
-                    <p className="footer-made-with">
-                        Made with <FiHeart size={14} color="var(--color-primary)" /> for little learners
                     </p>
                 </div>
             </div>
